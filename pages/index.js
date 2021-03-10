@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import About from './about'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -16,7 +14,11 @@ export default function Home() {
         <Link href="/games"><a>my unreal games</a></Link>{' | '}
         <Link href="/contact"><a>contact me</a></Link>
       </>
-      <h1>Home page</h1>
+      <h1>Welcome to my portfolio site!</h1>
+      <h4>
+        Have fun perusing my various projects, and please reach out to me if you have any questions.<br/>
+        (The only thing I enjoy more than creating is geeking out over my projects.)
+      </h4>
     </div>
   )
 }
