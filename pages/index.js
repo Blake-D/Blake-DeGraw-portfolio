@@ -9,9 +9,9 @@ export default function Home() {
       </Head>
       <>
         <Link href="/"><a>home</a></Link>{' | '}
-        <Link href="/about"><a>about me</a></Link>{' | '}
-        <Link href="/webapps"><a>my apps</a></Link>{' | '}
-        <Link href="/games"><a>my unreal games</a></Link>{' | '}
+        <Link href="/about"><a>about</a></Link>{' | '}
+        <Link href="/webapps"><a>web apps</a></Link>{' | '}
+        <Link href="/games"><a>unreal projects</a></Link>{' | '}
         <Link href="/contact"><a>contact me</a></Link>
       </>
       <h1>Welcome to my portfolio site!</h1>
