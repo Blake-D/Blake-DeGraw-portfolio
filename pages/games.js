@@ -12,9 +12,9 @@ export default function Games() {
         </>
         <h1>My Video Games</h1>
         <ul>
-            <li>Escape from D-1471</li>
-            <li>Prodrome</li>
-            <li>BioPlunge: Update</li>
+            <li><Link href="/escape"><a>Escape from D-1471</a></Link></li>
+            <li><Link href="/prodrome"><a>Prodrome</a></Link></li>
+            <li><Link href="/bioplunge"><a>BioPlunge: Update</a></Link></li>
         </ul>
       </div>
     )

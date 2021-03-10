@@ -12,9 +12,9 @@ export default function WebApps() {
         </>
         <h1>Here are some of my applications</h1>
         <ul>
-            <li>Showdown on Cygnus 8</li>
-            <li>Star Wars: Fleet Attack</li>
-            <li>Rickipedia & Mortiverse</li>
+            <li><Link href="/rickipedia"><a>Rickipedia & Mortiverse</a></Link></li>
+            <li><Link href="/cygnus"><a>Showdown on Cygnus 8</a></Link></li>
+            <li><Link href="/fleet"><a>Star Wars: Fleet Attack</a></Link></li>
         </ul>
       </div>
     )
