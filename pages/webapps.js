@@ -10,7 +10,12 @@ export default function WebApps() {
             <Link href="/games"><a>my unreal games</a></Link>{' | '}
             <Link href="/contact"><a>contact me</a></Link>
         </>
-        <h1>my apps</h1>
+        <h1>Here are some of my applications</h1>
+        <ul>
+            <li>Showdown on Cygnus 8</li>
+            <li>Star Wars: Fleet Attack</li>
+            <li>Rickipedia & Mortiverse</li>
+        </ul>
       </div>
     )
   }

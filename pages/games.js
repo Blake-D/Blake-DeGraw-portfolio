@@ -10,7 +10,12 @@ export default function Games() {
             <Link href="/games"><a>my unreal games</a></Link>{' | '}
             <Link href="/contact"><a>contact me</a></Link>
         </>
-        <h1>my unreal projects</h1>
+        <h1>My Video Games</h1>
+        <ul>
+            <li>Escape from D-1471</li>
+            <li>Prodrome</li>
+            <li>BioPlunge: Update</li>
+        </ul>
       </div>
     )
   }
