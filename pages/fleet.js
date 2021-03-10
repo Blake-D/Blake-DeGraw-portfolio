@@ -19,6 +19,9 @@ export default function FleetAttack() {
             <Image src="/fleet_1.png" width={175} height={100}/><br></br>
             <Link href="https://round2-deployment.herokuapp.com/"><a target="_blank">Click here to launch app</a></Link><br></br>
             <Link href="https://github.com/Blake-D/Fleet-Attack"><a target="_blank">Click here to visit the Github repo</a></Link>
+            <p>
+                
+            </p>
         </div>
     )
 }
