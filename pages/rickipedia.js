@@ -20,7 +20,7 @@ export default function Rickipedia() {
             <Image src="/rickipedia_3.png" width={175} height={100}/>{' '}
             <Image src="/rickipedia_4.png" width={175} height={100}/><br></br>
             <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">launch app</a></Link><br></br>
-            <Link href="https://github.com/Patbenmi/Rickipedia"><a target="_blank" className="link">visit the Github repo</a></Link>
+            <Link href="https://github.com/Patbenmi/Rickipedia"><a target="_blank" className="link">visit the GitHub repo</a></Link>
             <p>
                 <b>Rickipedia & Mortiverse</b> is a full-stack web application that I developed as part of a team while studying at General Assembly. It fetches data from a MongoDB collection (seeded with data fetched from a Rick & Morty API) and renders episode, character, and location data to their respective wiki pages. Users can also create accounts, which allows them to publish theories about the show and comment on each other's theories.
                 <br></br><br></br>

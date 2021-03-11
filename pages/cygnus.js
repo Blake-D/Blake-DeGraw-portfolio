@@ -18,7 +18,7 @@ export default function Cygnus() {
             <Image src="/cygnus_1.png" width={175} height={100}/>{' '}
             <Image src="/cygnus_2.png" width={175} height={100}/><br></br>
             <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">launch app</a></Link><br></br>
-            <Link href="https://github.com/Blake-D/ShowdownOnCygnus8"><a target="_blank" className="link">visit the Github repo</a></Link>
+            <Link href="https://github.com/Blake-D/ShowdownOnCygnus8"><a target="_blank" className="link">visit the GitHub repo</a></Link>
             <p>
                 <b>Showdown on Cygnus 8</b> is a single-page browser game I coded as a project while at General Assembly. My primary goals for the project were to better understand setting and stopping time intervals, using event listeners to detect mouse cursor location, and using random number generators to determine certain aspects of the game logic.
                 <br></br><br></br>
