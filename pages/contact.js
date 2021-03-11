@@ -5,7 +5,7 @@ export default function Contact() {
     return (
       <div>
         <Head>
-          <title>Blake DeGraw's Portfolio</title>
+          <title>Contact | Blake DeGraw</title>
         </Head>
         <>
             <Link href="/"><a>home</a></Link>{' | '}

@@ -6,7 +6,7 @@ export default function BioPlunge() {
     return (
         <div>
             <Head>
-                <title>Blake DeGraw's Portfolio</title>
+                <title>Games | Blake DeGraw</title>
             </Head>
             <>
                 <Link href="/"><a>home</a></Link>{' | '}
