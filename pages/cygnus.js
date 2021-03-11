@@ -8,18 +8,17 @@ export default function Cygnus() {
             <Head>
                 <title>Apps | Blake DeGraw</title>
             </Head>
-            <>
-                <Link href="/"><a>home</a></Link>{' | '}
-                <Link href="/about"><a>about</a></Link>{' | '}
-                <Link href="/webapps"><a>web apps</a></Link>{' | '}
-                <Link href="/games"><a>unreal projects</a></Link>{' | '}
+            <div className="nav-links">
+                <Link href="/"><a>home | </a></Link>
+                <Link href="/webapps"><a>apps | </a></Link>
+                <Link href="/games"><a>unreal projects | </a></Link>
                 <Link href="/contact"><a>contact me</a></Link>
-            </>
+            </div>
             <h1>Showdown on Cygnus 8</h1>
             <Image src="/cygnus_1.png" width={175} height={100}/>{' '}
             <Image src="/cygnus_2.png" width={175} height={100}/><br></br>
-            <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank">Click here to launch app</a></Link><br></br>
-            <Link href="https://github.com/Blake-D/ShowdownOnCygnus8"><a target="_blank">Click here to visit the Github repo</a></Link>
+            <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank">launch app</a></Link><br></br>
+            <Link href="https://github.com/Blake-D/ShowdownOnCygnus8"><a target="_blank">visit the Github repo</a></Link>
             <p>
                 <b>Showdown on Cygnus 8</b> is a single-page browser game I coded as a project while at General Assembly. My primary goals for the project were to better understand setting and stopping time intervals, using event listeners to detect mouse cursor location, and using random number generators to determine certain aspects of the game logic.
                 <br></br><br></br>
@@ -27,6 +26,20 @@ export default function Cygnus() {
                 <br></br><br></br>
                 The enemy combatants all fire on you at preset intervals, but not every shot is a hit. Hits are determined by random generators; each time they fire, javascript rolls a conceptual set of dice in the background to determine whether the shot was successful or not.
             </p>
+            <style jsx>
+            {`
+                h1, p{
+                    color: white;
+                }
+                a{
+                    font-size: 2vw;
+                    color: white;
+                }
+                .nav-links{
+                    text-align: center;
+                }
+            `}
+            </style>
         </div>
     )
 }

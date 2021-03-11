@@ -7,14 +7,31 @@ export default function Contact() {
         <Head>
           <title>Contact | Blake DeGraw</title>
         </Head>
-        <>
-            <Link href="/"><a>home</a></Link>{' | '}
-            <Link href="/about"><a>about</a></Link>{' | '}
-            <Link href="/webapps"><a>web apps</a></Link>{' | '}
-            <Link href="/games"><a>unreal projects</a></Link>{' | '}
-            <Link href="/contact"><a>contact me</a></Link>
-        </>
-        <h1>contact me</h1>
+        <div className="nav-links">
+          <Link href="/"><a>home | </a></Link>
+          <Link href="/webapps"><a>apps | </a></Link>
+          <Link href="/games"><a>unreal projects | </a></Link>
+          <Link href="/contact"><a>contact me</a></Link>
+        </div>
+        <p className="title-text">contact me</p>
+        <style jsx>
+          {`
+          .title-text{
+            color: white;
+            font-size: 20vw;
+            text-align: left;
+            margin-top: 2;
+            margin-bottom: 0;
+          }
+          .nav-links{
+            text-align: center;
+          }
+          a{
+            font-size: 2vw;
+            color: white;
+          }
+          `}
+        </style>
       </div>
     )
   }

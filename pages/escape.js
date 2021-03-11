@@ -8,13 +8,12 @@ export default function Escape() {
             <Head>
                 <title>Games | Blake DeGraw</title>
             </Head>
-            <>
-                <Link href="/"><a>home</a></Link>{' | '}
-                <Link href="/about"><a>about</a></Link>{' | '}
-                <Link href="/webapps"><a>web apps</a></Link>{' | '}
-                <Link href="/games"><a>unreal projects</a></Link>{' | '}
+            <div className="nav-links">
+                <Link href="/"><a>home | </a></Link>
+                <Link href="/webapps"><a>apps | </a></Link>
+                <Link href="/games"><a>unreal projects | </a></Link>
                 <Link href="/contact"><a>contact me</a></Link>
-            </>
+            </div>
             <h1>Escape from D-1471</h1>
             <Image src="/escape_screenshot_1.png" width={175} height={100}/>{' '}
             <Image src="/escape_screenshot_2.png" width={175} height={100}/>{' '}
@@ -26,6 +25,20 @@ export default function Escape() {
                 <br></br><br></br>
                 <em>Escape</em> is the first playable game I ever successfully coded, and, in fact, is the project that ultimately pushed me into a formal study of programming logic. Primarily a personal learning exercise, I single-handedly took on almost every aspect of the game myself, including (but not limited to): level design, sound desing, character animations, cutscene animations, and 3D modeling. I even did all the voice acting!
             </p>
+            <style jsx>
+            {`
+                h1, p{
+                    color: white;
+                }
+                a{
+                    font-size: 2vw;
+                    color: white;
+                }
+                .nav-links{
+                    text-align: center;
+                }
+            `}
+            </style>
         </div>
     )
 }

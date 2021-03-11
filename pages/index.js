@@ -9,24 +9,20 @@ export default function Home() {
       </Head>
         <div className="nav-links">
           <Link href="/"><a>home | </a></Link>
-          <Link href="/about"><a>about | </a></Link>
-          <Link href="/webapps"><a>web apps | </a></Link>
+          <Link href="/webapps"><a>apps | </a></Link>
           <Link href="/games"><a>unreal projects | </a></Link>
           <Link href="/contact"><a>contact me</a></Link>
         </div>
         <p className="title-text">Blake DeGraw</p>
+        <h3 className="blurb">software engineer, videogame developer, sound designer</h3>
         <div className="wrap">
           <div className="left">
-            <h3>LANGUAGES</h3>
+            <h3>FRAMEWORKS</h3>
             <p>
-              JavaScript<br></br>
-              Python<br></br>
-              HTML<br></br>
-              CSS<br></br>
-              PHP<br></br>
-              Blueprints<br></br>
-              Max/MSP<br></br>
-              SQL
+              React<br></br>
+              Express<br></br>
+              Node<br></br>
+              Next.js
             </p>
           </div>
           <div className="right">
@@ -39,12 +35,16 @@ export default function Home() {
             </p>
           </div>
           <div className="center">
-            <h3>FRAMEWORKS</h3>
+            <h3>LANGUAGES</h3>
             <p>
-              React<br></br>
-              Express<br></br>
-              Node<br></br>
-              Next.js
+              JavaScript<br></br>
+              Python<br></br>
+              HTML<br></br>
+              CSS<br></br>
+              PHP<br></br>
+              Blueprints<br></br>
+              Max/MSP<br></br>
+              SQL
             </p>
           </div>
         </div>
@@ -52,6 +52,7 @@ export default function Home() {
           {`
             .wrap{
               text-align: center;
+              padding-top: 8vw;
             }
             .left{
               margin-left: 20vw;
@@ -75,10 +76,15 @@ export default function Home() {
               color: white;
               font-size: 20vw;
               text-align: left;
-              margin-top: 10;
+              margin-top: 2;
+              margin-bottom: 0;
+            }
+            .blurb{
+              margin-left: 1vw;
+              color: white;
             }
             .nav-links{
-              text-align: right;
+              text-align: center;
             }
           `}
         </style>

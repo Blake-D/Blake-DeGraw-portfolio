@@ -8,13 +8,12 @@ export default function Prodrome() {
             <Head>
                 <title>Games | Blake DeGraw</title>
             </Head>
-            <>
-                <Link href="/"><a>home</a></Link>{' | '}
-                <Link href="/about"><a>about</a></Link>{' | '}
-                <Link href="/webapps"><a>web apps</a></Link>{' | '}
-                <Link href="/games"><a>unreal projects</a></Link>{' | '}
+            <div className="nav-links">
+                <Link href="/"><a>home | </a></Link>
+                <Link href="/webapps"><a>apps | </a></Link>
+                <Link href="/games"><a>unreal projects | </a></Link>
                 <Link href="/contact"><a>contact me</a></Link>
-            </>
+            </div>
             <h1>Prodrome</h1>
             <Image src="/prodrome_screenshot_1.jpg" width={250} height={100}/>{' '}
             <Image src="/prodrome_screenshot_3.jpg" width={250} height={100}/>{' '}
@@ -24,6 +23,20 @@ export default function Prodrome() {
                 <br></br><br></br>
                 The player is tasked with cracking the portal's mysteries so they can return home to their wife without deteriorating in the process. Due to the portal's effects (which manisfest through gradual blurring of vision and slowness of movement), the player can only venture so far away from the portal before crossing a threshold at which they will never be able to return to it, and will thus wither away and die. So time management is key!
             </p>
+            <style jsx>
+            {`
+                h1, p{
+                    color: white;
+                }
+                a{
+                    font-size: 2vw;
+                    color: white;
+                }
+                .nav-links{
+                    text-align: center;
+                }
+            `}
+            </style>
         </div>
     )
 }

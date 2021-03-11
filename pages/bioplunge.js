@@ -8,13 +8,12 @@ export default function BioPlunge() {
             <Head>
                 <title>Games | Blake DeGraw</title>
             </Head>
-            <>
-                <Link href="/"><a>home</a></Link>{' | '}
-                <Link href="/about"><a>about</a></Link>{' | '}
-                <Link href="/webapps"><a>web apps</a></Link>{' | '}
-                <Link href="/games"><a>unreal projects</a></Link>{' | '}
+            <div className="nav-links">
+                <Link href="/"><a>home | </a></Link>
+                <Link href="/webapps"><a>apps | </a></Link>
+                <Link href="/games"><a>unreal projects | </a></Link>
                 <Link href="/contact"><a>contact me</a></Link>
-            </>
+            </div>
             <h1>BioPlunge: Demo</h1>
             <Image src="/bioplunge_screenshot_1.jpg" width={175} height={100}/>{' '}
             <Image src="/bioplunge_screenshot_3.jpg" width={175} height={100}/>{' '}
@@ -31,6 +30,20 @@ export default function BioPlunge() {
                 <br></br><br></br>
                 The game features occasional instances of multiple-choice scenarios, either in the form of dialogue prompts or action options. It is through these scenarios that the game "learns" the player's behavior and informs the character's decisions to disobey the player, based on whether they display a tendency to select the sensible or non-sensible options.
             </p>
+            <style jsx>
+            {`
+                h1, p{
+                    color: white;
+                }
+                a{
+                    font-size: 2vw;
+                    color: white;
+                }
+                .nav-links{
+                    text-align: center;
+                }
+            `}
+            </style>
         </div>
     )
 }
