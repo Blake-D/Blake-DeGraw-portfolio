@@ -2,7 +2,13 @@ html {
   background-image: url("/mural.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
+
+.link:hover{
+  text-decoration: underline;
+}
+
 body {
   padding: 0;
   margin: 0;

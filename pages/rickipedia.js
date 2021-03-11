@@ -9,18 +9,18 @@ export default function Rickipedia() {
                 <title>Apps | Blake DeGraw</title>
             </Head>
             <div className="nav-links">
-                <Link href="/"><a>home | </a></Link>
-                <Link href="/webapps"><a>apps | </a></Link>
-                <Link href="/games"><a>unreal projects | </a></Link>
-                <Link href="/contact"><a>contact me</a></Link>
+                <Link href="/"><a className="link">home</a></Link> {' | '}
+                <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
+                <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
+                <Link href="/contact"><a className="link">contact me</a></Link>
             </div>
             <h1>Rickipedia & Mortiverse</h1>
             <Image src="/rickipedia_1.png" width={175} height={100}/>{' '}
             <Image src="/rickipedia_2.png" width={175} height={100}/>{' '}
             <Image src="/rickipedia_3.png" width={175} height={100}/>{' '}
             <Image src="/rickipedia_4.png" width={175} height={100}/><br></br>
-            <Link href="https://rickipedia.herokuapp.com/"><a target="_blank">launch app</a></Link><br></br>
-            <Link href="https://github.com/Patbenmi/Rickipedia"><a target="_blank">visit the Github repo</a></Link>
+            <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">launch app</a></Link><br></br>
+            <Link href="https://github.com/Patbenmi/Rickipedia"><a target="_blank" className="link">visit the Github repo</a></Link>
             <p>
                 <b>Rickipedia & Mortiverse</b> is a full-stack web application that I developed as part of a team while studying at General Assembly. It fetches data from a MongoDB collection (seeded with data fetched from a Rick & Morty API) and renders episode, character, and location data to their respective wiki pages. Users can also create accounts, which allows them to publish theories about the show and comment on each other's theories.
                 <br></br><br></br>

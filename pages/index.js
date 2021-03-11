@@ -8,13 +8,13 @@ export default function Home() {
         <title>Home | Blake DeGraw</title>
       </Head>
         <div className="nav-links">
-          <Link href="/"><a>home | </a></Link>
-          <Link href="/webapps"><a>apps | </a></Link>
-          <Link href="/games"><a>unreal projects | </a></Link>
-          <Link href="/contact"><a>contact me</a></Link>
+          <Link href="/"><a className="link">home</a></Link> {' | '}
+          <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
+          <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
+          <Link href="/contact"><a className="link">contact me</a></Link>
         </div>
         <p className="title-text">Blake DeGraw</p>
-        <h3 className="blurb">software engineer, videogame developer, sound designer</h3>
+        <h3 className="blurb">software engineer, game developer, sound designer</h3>
         <div className="wrap">
           <div className="left">
             <h3>FRAMEWORKS</h3>
@@ -50,6 +50,11 @@ export default function Home() {
         </div>
         <style jsx>
           {`
+            // .page-container-home {
+            //   background-image: url("/mural.jpg");
+            //   background-repeat: no-repeat;
+            //   background-size: cover;
+            // }
             .wrap{
               text-align: center;
               padding-top: 8vw;
@@ -67,6 +72,7 @@ export default function Home() {
             .center{
               margin: 0 auto !important;
               display: inline-block;
+              color: white;
             }
             a{
               font-size: 2vw;

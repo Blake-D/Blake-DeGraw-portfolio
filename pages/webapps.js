@@ -8,16 +8,16 @@ export default function WebApps() {
           <title>Apps | Blake DeGraw</title>
         </Head>
         <div className="nav-links">
-          <Link href="/"><a>home | </a></Link>
-          <Link href="/webapps"><a>apps | </a></Link>
-          <Link href="/games"><a>unreal projects | </a></Link>
-          <Link href="/contact"><a>contact me</a></Link>
+          <Link href="/"><a className="link">home</a></Link> {' | '}
+          <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
+          <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
+          <Link href="/contact"><a className="link">contact me</a></Link>
         </div>
         <p className="title-text">my apps</p>
         <div className="app-list">
-            <Link href="/rickipedia"><a>Rickipedia & Mortiverse</a></Link><br></br>
-            <Link href="/cygnus"><a>Showdown on Cygnus 8</a></Link><br></br>
-            <Link href="/fleet"><a>Star Wars: Fleet Attack</a></Link>
+            <Link href="/rickipedia"><a className="link">Rickipedia & Mortiverse</a></Link><br></br>
+            <Link href="/cygnus"><a className="link">Showdown on Cygnus 8</a></Link><br></br>
+            <Link href="/fleet"><a className="link">Star Wars: Fleet Attack</a></Link>
         </div>
         <style jsx>
           {`

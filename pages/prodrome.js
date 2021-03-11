@@ -9,10 +9,10 @@ export default function Prodrome() {
                 <title>Games | Blake DeGraw</title>
             </Head>
             <div className="nav-links">
-                <Link href="/"><a>home | </a></Link>
-                <Link href="/webapps"><a>apps | </a></Link>
-                <Link href="/games"><a>unreal projects | </a></Link>
-                <Link href="/contact"><a>contact me</a></Link>
+                <Link href="/"><a className="link">home</a></Link> {' | '}
+                <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
+                <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
+                <Link href="/contact"><a className="link">contact me</a></Link>
             </div>
             <h1>Prodrome</h1>
             <Image src="/prodrome_screenshot_1.jpg" width={250} height={100}/>{' '}

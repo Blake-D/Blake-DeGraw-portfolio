@@ -9,16 +9,16 @@ export default function Cygnus() {
                 <title>Apps | Blake DeGraw</title>
             </Head>
             <div className="nav-links">
-                <Link href="/"><a>home | </a></Link>
-                <Link href="/webapps"><a>apps | </a></Link>
-                <Link href="/games"><a>unreal projects | </a></Link>
-                <Link href="/contact"><a>contact me</a></Link>
+                <Link href="/"><a className="link">home</a></Link> {' | '}
+                <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
+                <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
+                <Link href="/contact"><a className="link">contact me</a></Link>
             </div>
             <h1>Showdown on Cygnus 8</h1>
             <Image src="/cygnus_1.png" width={175} height={100}/>{' '}
             <Image src="/cygnus_2.png" width={175} height={100}/><br></br>
-            <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank">launch app</a></Link><br></br>
-            <Link href="https://github.com/Blake-D/ShowdownOnCygnus8"><a target="_blank">visit the Github repo</a></Link>
+            <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">launch app</a></Link><br></br>
+            <Link href="https://github.com/Blake-D/ShowdownOnCygnus8"><a target="_blank" className="link">visit the Github repo</a></Link>
             <p>
                 <b>Showdown on Cygnus 8</b> is a single-page browser game I coded as a project while at General Assembly. My primary goals for the project were to better understand setting and stopping time intervals, using event listeners to detect mouse cursor location, and using random number generators to determine certain aspects of the game logic.
                 <br></br><br></br>

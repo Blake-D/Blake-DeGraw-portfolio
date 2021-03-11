@@ -9,15 +9,15 @@ export default function FleetAttack() {
                 <title>Apps | Blake DeGraw</title>
             </Head>
             <div className="nav-links">
-                <Link href="/"><a>home | </a></Link>
-                <Link href="/webapps"><a>apps | </a></Link>
-                <Link href="/games"><a>unreal projects | </a></Link>
-                <Link href="/contact"><a>contact me</a></Link>
+                <Link href="/"><a className="link">home</a></Link> {' | '}
+                <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
+                <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
+                <Link href="/contact"><a className="link">contact me</a></Link>
             </div>
             <h1>Star Wars: Fleet Attack</h1>
             <Image src="/fleet_1.png" width={175} height={100}/><br></br>
-            <Link href="https://round2-deployment.herokuapp.com/"><a target="_blank">launch app</a></Link><br></br>
-            <Link href="https://github.com/Blake-D/Fleet-Attack"><a target="_blank">visit the Github repo</a></Link>
+            <Link href="https://round2-deployment.herokuapp.com/"><a target="_blank" className="link">launch app</a></Link><br></br>
+            <Link href="https://github.com/Blake-D/Fleet-Attack"><a target="_blank" className="link">visit the Github repo</a></Link>
             <p>
                 <b>Star Wars: Fleet Attack</b> is a browser game coded in Express.js. The user assembles a fleet of five ships to pit against an imperial fleet in battle.
                 <br></br><br></br>

@@ -8,16 +8,16 @@ export default function Games() {
           <title>Games | Blake DeGraw</title>
         </Head>
         <div className="nav-links">
-          <Link href="/"><a>home | </a></Link>
-          <Link href="/webapps"><a>apps | </a></Link>
-          <Link href="/games"><a>unreal projects | </a></Link>
-          <Link href="/contact"><a>contact me</a></Link>
+          <Link href="/"><a className="link">home</a></Link> {' | '}
+          <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
+          <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
+          <Link href="/contact"><a className="link">contact me</a></Link>
         </div>
         <p className="title-text">unreal projects</p>
         <div className="game-list">
-            <Link href="/escape"><a>Escape from D-1471</a></Link><br></br>
-            <Link href="/prodrome"><a>Prodrome</a></Link><br></br>
-            <Link href="/bioplunge"><a>BioPlunge: Demo</a></Link>
+            <Link href="/escape"><a className="link">Escape from D-1471</a></Link><br></br>
+            <Link href="/prodrome"><a className="link">Prodrome</a></Link><br></br>
+            <Link href="/bioplunge"><a className="link">BioPlunge: Demo</a></Link>
         </div>
         <style jsx>
           {`
