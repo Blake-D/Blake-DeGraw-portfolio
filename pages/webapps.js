@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 export default function WebApps() {
     return (
-      <div>
+      <div className="page-container-apps">
         <Head>
           <title>Apps | Blake DeGraw</title>
         </Head>
@@ -13,16 +13,26 @@ export default function WebApps() {
           <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
           <Link href="/contact"><a className="link">contact me</a></Link>
         </div>
-        <p className="title-text">my apps</p>
+        <p className="title-text">My Apps</p>
         <div className="app-list">
-            <Link href="/rickipedia"><a className="link">Rickipedia & Mortiverse</a></Link><br></br>
-            <Link href="/cygnus"><a className="link">Showdown on Cygnus 8</a></Link><br></br>
-            <Link href="/fleet"><a className="link">Star Wars: Fleet Attack</a></Link>
+            <Link href="https://blake-d.github.io/web-oscillator/"><a target="_blank" className="link">Web Oscillator</a></Link><br></br>
+            <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">Rickipedia & Mortiverse</a></Link><br></br>
+            <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">Showdown on Cygnus 8</a></Link>
         </div>
         <style jsx>
           {`
+            .page-container-apps {
+              background-image: url("/mural.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 100vh;
+            }
             .app-list{
-              margin-left: 1vw;
+              margin-top: 5vw;
+              margin-left: 5vw;
+            }
+            .link{
+              font-size: 20px;
             }
             .title-text{
               color: white;

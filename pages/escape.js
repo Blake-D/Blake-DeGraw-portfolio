@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 export default function Escape() {
     return (
-        <div>
+        <div className="page-container-escape">
             <Head>
                 <title>Games | Blake DeGraw</title>
             </Head>
@@ -29,6 +29,13 @@ export default function Escape() {
             </p>
             <style jsx>
             {`
+                 .page-container-escape {
+                    background-image: url("/unreal_logo.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    height: 100vh;
+                }
                 h1, p{
                     color: white;
                 }

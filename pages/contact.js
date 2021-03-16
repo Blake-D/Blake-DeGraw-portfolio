@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 export default function Contact() {
     return (
-      <div>
+      <div className="page-container-contact">
         <Head>
           <title>Contact | Blake DeGraw</title>
         </Head>
@@ -16,6 +16,12 @@ export default function Contact() {
         <p className="title-text">contact me</p>
         <style jsx>
           {`
+          .page-container-contact {
+            background-image: url("/mural.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+          }
           .title-text{
             color: white;
             font-size: 20vw;

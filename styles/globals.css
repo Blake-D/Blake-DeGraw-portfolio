@@ -1,12 +1,13 @@
 html {
-  background-image: url("/mural.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   color: white;
 }
 
 .link:hover{
   text-decoration: underline;
+}
+
+.title-text{
+  margin-top: 0;
 }
 
 body {

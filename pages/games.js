@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 export default function Games() {
     return (
-      <div>
+      <div className="page-container-games">
         <Head>
           <title>Games | Blake DeGraw</title>
         </Head>
@@ -27,6 +27,13 @@ export default function Games() {
         </div>
         <style jsx>
           {`
+            .page-container-games {
+              background-image: url("/unreal.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+              height: 100vh;
+            }
            .game-list{
             margin-left: 1vw;
           }
