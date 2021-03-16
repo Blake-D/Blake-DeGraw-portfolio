@@ -11,7 +11,7 @@ export default function Escape() {
             <div className="nav-links">
                 <Link href="/"><a className="link">home</a></Link> {' | '}
                 <Link href="/contact"><a className="link">contact</a></Link> {' | '}
-                <Link href="/contact"><a className="link">resume</a></Link>
+                <Link href="/Blake_DeGraw_Resume.pdf" download><a target="_blank" className="link">resume</a></Link>
             </div>
             <p className="title-text">Escape from D-1471</p>
             <div className="image-container">

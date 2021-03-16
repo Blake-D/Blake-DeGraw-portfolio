@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
         <div className="nav-links">
           <Link href="/contact"><a className="link">contact</a></Link> {' | '}
-          <Link href="/contact"><a className="link">resume</a></Link>
+          <Link href="/Blake_DeGraw_Resume.pdf" download><a target="_blank" className="link">resume</a></Link>
         </div>
         <p className="title-text">Blake DeGraw</p>
         <h3 className="blurb">software engineer | game developer | sound designer</h3>
