@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 export default function Prodrome() {
     return (
-        <div className="page-container-prodrome">
+        <div>
             <Head>
                 <title>Games | Blake DeGraw</title>
             </Head>
@@ -26,24 +26,6 @@ export default function Prodrome() {
             </p>
             <style jsx>
             {`
-                .image-container{
-                    text-align: center;
-                }
-                .description{
-                    text-align: justify;
-                    margin-left: 2vw;
-                    margin-right: 2vw;
-                }
-                h1, p{
-                    color: white;
-                }
-                a{
-                    font-size: 2vw;
-                    color: white;
-                }
-                .nav-links{
-                    text-align: center;
-                }
                 .title-text{
                     color: white;
                     font-size: 12vw;

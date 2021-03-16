@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 export default function Contact() {
     return (
-      <div className="page-container-contact">
+      <div>
         <Head>
           <title>Contact | Blake DeGraw</title>
         </Head>
@@ -12,7 +12,7 @@ export default function Contact() {
           <Link href="/Blake_DeGraw_Resume.pdf" download><a target="_blank" className="link">resume</a></Link>
         </div>
         <p className="title-text">Contact Me</p>
-        <div className="contact-links">
+        <div id="contact-links">
           <Link href="https://www.linkedin.com/in/blake-degraw/"><a target="_blank" className="link">LinkedIn</a></Link><br></br>
           <Link href="https://github.com/Blake-D"><a target="_blank" className="link">GitHub</a></Link><br></br>
         </div>
@@ -27,10 +27,7 @@ export default function Contact() {
             margin-top: 2;
             margin-bottom: 0;
           }
-          .nav-links{
-            text-align: center;
-          }
-          .contact-links{
+          #contact-links{
             text-align: center;
             font-size:3vw;
           }

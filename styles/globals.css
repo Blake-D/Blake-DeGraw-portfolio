@@ -6,6 +6,20 @@ html {
   height: 100vh;
 }
 
+.image-container{
+  text-align: center;
+}
+
+.description{
+  text-align: justify;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.nav-links{
+  text-align: center;
+}
+
 .link:hover{
   text-decoration: underline;
 }
