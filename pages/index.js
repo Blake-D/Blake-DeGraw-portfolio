@@ -9,13 +9,25 @@ export default function Home() {
       </Head>
         <div className="nav-links">
           <Link href="/"><a className="link">home</a></Link> {' | '}
-          <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
-          <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
           <Link href="/contact"><a className="link">contact me</a></Link>
         </div>
         <p className="title-text">Blake DeGraw</p>
         <h3 className="blurb">software engineer | game developer | sound designer</h3>
-        <div className="wrap">
+        <div className="project-wrap">
+          <div className="app-list">
+            Apps<br></br>
+            <Link href="https://blake-d.github.io/web-oscillator/"><a target="_blank" className="link">Web Oscillator</a></Link><br></br>
+            <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">Rickipedia & Mortiverse</a></Link><br></br>
+            <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">Showdown on Cygnus 8</a></Link>
+          </div>
+          <div className="game-list">
+            Unreal Projects<br></br>
+            <Link href="/bioplunge"><a className="link">BioPlunge: Demo</a></Link><br></br>
+            <Link href="/prodrome"><a className="link">Prodrome</a></Link><br></br>
+            <Link href="/escape"><a className="link">Escape from D-1471</a></Link>
+          </div>
+        </div>
+        <div className="info-wrap">
           <div className="left">
             <h3>FRAMEWORKS</h3>
             <p>
@@ -55,7 +67,14 @@ export default function Home() {
             //   background-repeat: no-repeat;
             //   background-size: cover;
             // }
-            .wrap{
+            .project-wrap{
+              text-align: center;
+            }
+            .app-list{
+              margin-left: 20vw;
+              float: left;
+            }
+            .info-wrap{
               text-align: center;
               padding-top: 8vw;
             }
@@ -80,13 +99,16 @@ export default function Home() {
             }
             .title-text{
               color: white;
-              font-size: 20vw;
-              text-align: left;
+              font-size: 15vw;
+              text-align: center;
+              marging-right: 2vw;
               margin-top: 2;
-              margin-bottom: 0;
+              margin-bottom: 0vw;
             }
             .blurb{
-              margin-left: 1vw;
+              text-align: center;
+              margin-top: 0vw;
+              margin-bottom: 4vw;
               color: white;
             }
             .nav-links{

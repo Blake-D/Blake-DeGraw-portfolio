@@ -34,13 +34,6 @@ export default function BioPlunge() {
                 .image-container{
                     text-align: center;
                 }
-                .page-container-bioplunge {
-                    background-color: black;
-                    background-image: url("/unreal_dark.jpg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center;
-                }
                 h1, p{
                     color: white;
                 }

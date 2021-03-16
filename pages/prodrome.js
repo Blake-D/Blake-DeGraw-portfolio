@@ -25,13 +25,7 @@ export default function Prodrome() {
             </p>
             <style jsx>
             {`
-                 .page-container-prodrome {
-                    background-image: url("/unreal_logo.png");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center;
-                    height: 100vh;
-                }
+                
                 h1, p{
                     color: white;
                 }
