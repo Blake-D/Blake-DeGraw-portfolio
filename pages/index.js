@@ -15,13 +15,13 @@ export default function Home() {
         <h3 className="blurb">software engineer | game developer | sound designer</h3>
         <div className="project-wrap">
           <div className="app-list">
-            APPS<br></br>
+            <h3>APPS</h3>
             <Link href="https://blake-d.github.io/web-oscillator/"><a target="_blank" className="link">Web Oscillator</a></Link><br></br>
             <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">Rickipedia & Mortiverse</a></Link><br></br>
             <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">Showdown on Cygnus 8</a></Link>
           </div>
           <div className="game-list">
-            UNREAL PROJECTS<br></br>
+            <h3>UNREAL PROJECTS</h3>
             <Link href="/bioplunge"><a className="link">BioPlunge: Demo</a></Link><br></br>
             <Link href="/prodrome"><a className="link">Prodrome</a></Link><br></br>
             <Link href="/escape"><a className="link">Escape from D-1471</a></Link>
@@ -94,10 +94,10 @@ export default function Home() {
               display: inline-block;
               color: white;
             }
-            a{
-              font-size: 2vw;
-              color: white;
-            }
+            // a{
+            //   font-size: 2vw;
+            //   color: white;
+            // }
             .title-text{
               color: white;
               font-size: 15vw;

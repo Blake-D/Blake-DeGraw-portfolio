@@ -9,19 +9,17 @@ export default function Contact() {
         </Head>
         <div className="nav-links">
           <Link href="/"><a className="link">home</a></Link> {' | '}
-          <Link href="/webapps"><a className="link">apps</a></Link>{' | '}
-          <Link href="/games"><a className="link">unreal projects</a></Link>{' | '}
-          <Link href="/contact"><a className="link">contact me</a></Link>
+          <Link href="/contact"><a className="link">resume</a></Link>
         </div>
-        <p className="title-text">contact me</p>
+        <p className="title-text">Contact Me</p>
+        <div className="contact-links">
+          <Link href="https://www.linkedin.com/in/blake-degraw/"><a target="_blank" className="link">LinkedIn</a></Link><br></br>
+          <Link href="https://github.com/Blake-D"><a target="_blank" className="link">GitHub</a></Link><br></br>
+        </div>
+        <p>(or send me a good ol' fashioned email at: bbdegraw@gmail.com)</p>
+        
         <style jsx>
           {`
-          .page-container-contact {
-            background-image: url("/mural.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
-          }
           .title-text{
             color: white;
             font-size: 20vw;
@@ -32,9 +30,12 @@ export default function Contact() {
           .nav-links{
             text-align: center;
           }
-          a{
-            font-size: 2vw;
-            color: white;
+          .contact-links{
+            text-align: center;
+            font-size:3vw;
+          }
+          p{
+            text-align: center;
           }
           `}
         </style>
