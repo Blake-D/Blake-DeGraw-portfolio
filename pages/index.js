@@ -50,11 +50,11 @@ export default function Home() {
         </div>
         <style jsx>
           {`
-            .page-container-home {
-              background-image: url("/mural.jpg");
-              background-repeat: no-repeat;
-              background-size: cover;
-            }
+            // .page-container-home {
+            //   background-image: url("/mural.jpg");
+            //   background-repeat: no-repeat;
+            //   background-size: cover;
+            // }
             .wrap{
               text-align: center;
               padding-top: 8vw;

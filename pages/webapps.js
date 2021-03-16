@@ -21,12 +21,12 @@ export default function WebApps() {
         </div>
         <style jsx>
           {`
-            .page-container-apps {
-              background-image: url("/mural.jpg");
-              background-repeat: no-repeat;
-              background-size: cover;
-              height: 100vh;
-            }
+            // .page-container-apps {
+            //   background-image: url("/mural.jpg");
+            //   background-repeat: no-repeat;
+            //   background-size: cover;
+            //   height: 100vh;
+            // }
             .app-list{
               margin-top: 5vw;
               margin-left: 5vw;
