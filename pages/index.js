@@ -8,20 +8,20 @@ export default function Home() {
         <title>Home | Blake DeGraw</title>
       </Head>
         <div className="nav-links">
-          <Link href="/"><a className="link">home</a></Link> {' | '}
-          <Link href="/contact"><a className="link">contact me</a></Link>
+          <Link href="/contact"><a className="link">contact</a></Link> {' | '}
+          <Link href="/contact"><a className="link">resume</a></Link>
         </div>
         <p className="title-text">Blake DeGraw</p>
         <h3 className="blurb">software engineer | game developer | sound designer</h3>
         <div className="project-wrap">
           <div className="app-list">
-            Apps<br></br>
+            APPS<br></br>
             <Link href="https://blake-d.github.io/web-oscillator/"><a target="_blank" className="link">Web Oscillator</a></Link><br></br>
             <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">Rickipedia & Mortiverse</a></Link><br></br>
             <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">Showdown on Cygnus 8</a></Link>
           </div>
           <div className="game-list">
-            Unreal Projects<br></br>
+            UNREAL PROJECTS<br></br>
             <Link href="/bioplunge"><a className="link">BioPlunge: Demo</a></Link><br></br>
             <Link href="/prodrome"><a className="link">Prodrome</a></Link><br></br>
             <Link href="/escape"><a className="link">Escape from D-1471</a></Link>
@@ -69,6 +69,7 @@ export default function Home() {
             // }
             .project-wrap{
               text-align: center;
+              padding-top: 3vh;
             }
             .app-list{
               margin-left: 20vw;
@@ -76,7 +77,7 @@ export default function Home() {
             }
             .info-wrap{
               text-align: center;
-              padding-top: 8vw;
+              padding-top: 4vw;
             }
             .left{
               margin-left: 20vw;
