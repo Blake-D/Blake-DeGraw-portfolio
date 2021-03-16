@@ -20,13 +20,14 @@ export default function Home() {
             <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">Rickipedia & Mortiverse</a></Link><br></br>
             <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">Showdown on Cygnus 8</a></Link>
           </div>
-          <div>
-            <h3>UNREAL PROJECTS</h3>
+          <div id="game-list">
+            <h3>VIDEO GAMES</h3>
             <Link href="/bioplunge"><a className="link">BioPlunge: Demo</a></Link><br></br>
             <Link href="/prodrome"><a className="link">Prodrome</a></Link><br></br>
             <Link href="/escape"><a className="link">Escape from D-1471</a></Link>
           </div>
         </div>
+        
         <div id="info-wrap">
           <div id="left">
             <h3>FRAMEWORKS</h3>
@@ -75,7 +76,7 @@ export default function Home() {
               padding-top: 3vh;
             }
             #app-list{
-              margin-left: 20vw;
+              margin-left: 23vw;
               float: left;
             }
             #info-wrap{
@@ -85,23 +86,19 @@ export default function Home() {
             #left{
               margin-left: 20vw;
               float: left;
-              color: white;
             }
             #right{
               margin-right: 20vw;
               float: right;
-              color: white;
             }
             #center{
               margin: 0 auto !important;
               display: inline-block;
-              color: white;
             }
             #blurb{
               text-align: center;
               margin-top: 0vw;
-              margin-bottom: 4vw;
-              color: white;
+              margin-bottom: 1vh;
             }
           `}
         </style>

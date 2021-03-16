@@ -20,7 +20,7 @@ export default function BioPlunge() {
                 <Image src="/bioplunge_screenshot_2.jpg" width={200} height={110}/>
             </div>
             <p className="description">
-                <b>BioPlunge: Demo</b> is a passion project I have been working on for well over a year now. It is the first installment in a trilogy (to be followed by <b>BioPlunge: Update</b> and <b>BioPlunge: Director's Cut</b>, respectively), though it can also hold up as a standalone game. 
+                <b>BioPlunge: Demo</b> is a passion project I have been developing for well over a year now using <b>Unreal Engine 4</b>. It is the first installment in a trilogy (to be followed by <b>BioPlunge: Update</b> and <b>BioPlunge: Director's Cut</b>, respectively), though it can also hold up as a standalone game. 
                 <br></br><br></br>
                 A game within a game, it takes place inside a fictional game called <em>BioPlunge</em>, which is a substandard first-person shooter about a cybernetically-augmented sleeper assassin living out a cover identity in suburbia.
                 <br></br><br></br>
