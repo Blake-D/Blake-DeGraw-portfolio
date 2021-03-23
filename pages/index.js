@@ -16,7 +16,7 @@ export default function Home() {
         <div id="project-wrap">
           <div id="app-list">
             <h3>APPS</h3>
-            <Link href="https://blake-d.github.io/web-oscillator/"><a target="_blank" className="link">Web Oscillator</a></Link><br></br>
+            <Link href="/oscillator"><a className="link">Web Oscillator</a></Link><br></br>
             <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">Rickipedia & Mortiverse</a></Link><br></br>
             <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">Showdown on Cygnus 8</a></Link>
           </div>
