@@ -12,13 +12,14 @@ export default function Home() {
           <Link href="/Blake_DeGraw_Resume.pdf" download><a target="_blank" className="link">resume</a></Link>
         </div>
         <p className="title-text">Blake DeGraw</p>
-        <h3 id="blurb">software engineer | game developer | sound designer</h3>
+        {/* <h3 id="blurb">software engineer | game developer | sound designer</h3> */}
+        <h3 id="blurb">I am a full-stack web developer with a passion for crafting unique user experiences. As an engineer, video game developer, and critically-acclaimed composer, my works challenge the user to interact with digital devices in unorthodox ways.</h3>
         <div id="project-wrap">
           <div id="app-list">
             <h3>APPS</h3>
             <Link href="/oscillator"><a className="link">Web Oscillator</a></Link><br></br>
-            <Link href="https://rickipedia.herokuapp.com/"><a target="_blank" className="link">Rickipedia & Mortiverse</a></Link><br></br>
-            <Link href="https://blake-d.github.io/ShowdownOnCygnus8/"><a target="_blank" className="link">Showdown on Cygnus 8</a></Link>
+            <Link href="/rickipedia"><a className="link">Rickipedia & Mortiverse</a></Link><br></br>
+            <Link href="/cygnus"><a className="link">Showdown on Cygnus 8</a></Link>
           </div>
           <div id="game-list">
             <h3>VIDEO GAMES</h3>
@@ -97,8 +98,10 @@ export default function Home() {
             }
             #blurb{
               text-align: center;
-              margin-top: 0vw;
+              margin-top: 0vh;
               margin-bottom: 1vh;
+              margin-left: 5vw;
+              margin-right: 5vw;
             }
           `}
         </style>
